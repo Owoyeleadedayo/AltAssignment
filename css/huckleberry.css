@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Poppins";
+}
+
+.top{
+    display: flex;
+    width: 100%;
+    height: 382px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 768px){
+    .top{
+        display: flex;
+        align-items: start;
+        padding: 0px 20px;
+    }
+}
+
+.container{
+   width: 808px;
+}
+@media (max-width: 425px){
+    .container{
+   width: 100%;
+}
+}
+
+
+.titleCon{
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38.4px;
+}
+
+.desc{
+    margin-bottom: 10px;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    line-height: 30px;
+}
+
+.sub-desc{
+    color: green;
+    font-weight: 800;
+}
+
+.typo{
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    line-height: 30px;
+}
+
+.bottom{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: #666666;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .bottom{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: #666666;
+}
+}
+
+.bottomFContainer{
+    display: flex;
+    width: 808px;
+    height: 312px;
+    position: relative;
+}
+
+
+.bottomContainer{
+    display: flex;
+    width: 800px;
+    height: 312px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    margin-left: 10px;
+    border-bottom: 10px solid gray;
+}
+
+@media (max-width: 425px) {
+    .bottomContainer{
+    width: 100%;
+    height: 800px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    margin-left: 10px;
+    border-bottom: 10px solid gray;
+}
+}
+
+@media (max-width: 758px){
+    .bottomContainer{
+    display: flex;
+    width: 100%;
+    height: 312px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    margin-left: 10px;
+    border-bottom: 10px solid gray;
+    }
+}
+
+.titleContainer{
+    background-color: #FFBF00;
+    border-bottom: 3px solid #CC9900;
+    width: 398px;
+    height: 60px;
+    padding: 20px;
+    position: absolute;
+    margin-top: 7px;
+    left: 0;
+    z-index: 100;
+}
+
+@media (max-width: 425px) {
+   .titleContainer{
+    background-color: #FFBF00;
+    border-bottom: 3px solid #CC9900;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 300px;
+    z-index: 100;
+} 
+}
+
+.title{
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 24px;
+    color: #000000;
+    line-height: 28.8px;
+    text-align: center;
+}
+
+@media (max-width: 425px) {
+   .title{
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 20px;
+    color: #000000;
+    line-height: 28.8px;
+    flex-wrap: wrap;
+}
+}
+
+.descContainer{
+    margin-top: 60px;
+}
+
+@media (max-width: 425px) {
+  .descContainer{
+    margin-top: 70px;
+}
+
+}
+
+
+.topDesc{
+     font-family: "Lato";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding: 25px;
+}
+
+.bottomDesc{
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding: 0px 25px;
+}
+
+@media (max-width: 425px){
+    .topDesc{
+     font-family: "Lato";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    padding: 22px;
+}
+}
+
+@media (max-width: 425px){
+    .bottomDesc{
+     font-family: "Lato";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    padding: 0px 22px 22px 22px ;
+}
+}
